@@ -1,0 +1,6 @@
+framework module Pods_Segment_Flurry_Example {
+  umbrella header "Pods-Segment-Flurry_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
