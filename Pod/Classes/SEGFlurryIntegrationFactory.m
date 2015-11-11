@@ -26,7 +26,7 @@
 
 - (NSString *)key
 {
-    return @"Mixpanel";
+    return @"Flurry";
 }
 
 @end
