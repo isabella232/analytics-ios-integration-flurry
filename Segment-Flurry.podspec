@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Flurry"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Flurry Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
