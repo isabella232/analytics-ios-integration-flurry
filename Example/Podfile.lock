@@ -1,12 +1,12 @@
 PODS:
-  - Analytics (3.0.0)
+  - Analytics (3.0.7)
   - Expecta (1.0.5)
-  - Flurry-iOS-SDK (7.3.0):
-    - Flurry-iOS-SDK/FlurrySDK (= 7.3.0)
-  - Flurry-iOS-SDK/FlurrySDK (7.3.0)
-  - Segment-Flurry (1.0.0-alpha):
+  - Flurry-iOS-SDK (7.5.2):
+    - Flurry-iOS-SDK/FlurrySDK (= 7.5.2)
+  - Flurry-iOS-SDK/FlurrySDK (7.5.2)
+  - Segment-Flurry (1.0.1):
     - Analytics (~> 3.0.0)
-    - Flurry-iOS-SDK (~> 7.3.0)
+    - Flurry-iOS-SDK (~> 7.5.2)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Analytics: 3ebd9eee7aa18bbf7d6418f2290b0bbf694144d5
+  Analytics: b342fb4f43fa4f97ca6f4358b44d3295217ba294
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Flurry-iOS-SDK: 054befae0fa0244fb000985bfe757d70f87a9f60
-  Segment-Flurry: 7d3f2aaf4563f3a03363f9917df64c180e4a3e38
+  Flurry-iOS-SDK: 8c87c4eab6008184ad9f63afabd79ec0d109c82e
+  Segment-Flurry: d46a0b037f66817da1d94581e25b2c091ad5fbaf
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0
