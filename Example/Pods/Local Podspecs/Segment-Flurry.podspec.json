@@ -22,7 +22,7 @@
   "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "Analytics": [
-      "~> 3.0.0"
+      "~> 3.0"
     ],
     "Flurry-iOS-SDK": [
       "~> 7.5.2"
