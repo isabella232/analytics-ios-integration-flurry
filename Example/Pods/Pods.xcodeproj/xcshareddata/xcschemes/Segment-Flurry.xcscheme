@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D384A8EC7E968FF398B94764'
+               BlueprintIdentifier = '63BE315F59DDBA4872BEB196'
                BlueprintName = 'Segment-Flurry'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Segment_Flurry.framework'>
