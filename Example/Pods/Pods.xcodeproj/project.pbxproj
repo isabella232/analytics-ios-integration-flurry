@@ -12,7 +12,7 @@
 		0561AB5EB2C6AC6F7676E22EA0D7D8CD /* Pods-Segment-Flurry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74C8B41573F9B143284CA4ED65D6F3 /* Pods-Segment-Flurry_Example-dummy.m */; };
 		05A7DDD46B7911236416E61224BFCFDE /* Segment-Flurry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DB2BA31CDE63037A56951DEEB2DD8B /* Segment-Flurry-dummy.m */; };
 		07A9DE304AA856D95EA2F4F3D5965351 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E48C4FD4169676C56C52D72E2DEBA /* SPTCompiledExample.m */; };
-		08CD8D8A4385A10968E0425D3E046707 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E65E02F1E85FD337420378C7BD9B312 /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08CD8D8A4385A10968E0425D3E046707 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 31905897FD8396664803F10F004D3401 /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A192E2E4F4CEEBFA54F9B520FD6B8CD /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D54DAEEC6096194543BFE0A66DF143F /* SEGGroupPayload.m */; };
 		0B6452B176B5FFDEB9AA99A8D4744B3A /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 00566D30929B16643FCE0CB355807F3F /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BC83515F1FA0DEDDD6027B8B409B122 /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 724BAE3E1BCF9621DC27C7E0B24FF76D /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,7 +54,6 @@
 		2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A85DBEBC3142DEAEB03E745A8407809 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1E5298056BB38439951371CAE3DF7D /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30BD3C4C9C5E46A8950F1CA04349D576 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0734A8A88A713AC93DAFE13EA8D3A348 /* SPTCallSite.m */; };
-		31176CEFAD51BD1031C2BC3099687B21 /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B36D67CC386C25BBEBF35F78B6CEE8 /* Flurry-iOS-SDK-dummy.m */; };
 		34931F233A6760CD72D11FB83491058C /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0651D90C2BB2184BC0BF60CB0AE51EC8 /* Analytics.framework */; };
 		34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D0C07EAE95777A102A1DBB71F9BA8E /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34FA936DBF399F30CB67225DC1EF5581 /* SEGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = A368FC76522BFB211C7D27FC98C34EC6 /* SEGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,7 +122,6 @@
 		95529BBC280F93C0A3964BA67B2016DF /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D22B82FDDB293B55BEFDAA05CA8EBA /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = A1563D05F10E18913389EB96B3541A56 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AA7E47E0A9F3AD42D01D1FBA56386 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9FA7F213E0759A6B7CB9A2BC8F613A08 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD547AA0C2259C60FB7F9F6D2E69184 /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A9A830BC14AE436B137FD64D77AB92CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1034179CFD6C4C397C18898FC75C17FD /* SystemConfiguration.framework */; };
 		ABC09CE8D15D7101BC0D97C6F7269A1F /* Flurry_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E513DB8C1EBB78CBED970B531BC1C7D /* Flurry_iOS_SDK.framework */; };
 		AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B9764F339E9B3E588F994828E6EEE9 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -144,6 +142,7 @@
 		D273D18F0500D728047E7FA008CBC436 /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF6BC4354199A26CB4001EE98ED537 /* SEGAnalyticsUtils.m */; };
 		D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770F4A97CCD8883B51BC989BF233D2D /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC51089DCC3ECAC36448B4E0A7C07CA /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD8F351881992FDB74A7E11E1FC99125 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = A983A8EC9D101C04A51CD97CED558768 /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E052E7FF445D36EC7B96500DDB841CDC /* Pods-Segment-Flurry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2021F345CD5ACA703F7E17ECDEC4ED69 /* Pods-Segment-Flurry_Tests-dummy.m */; };
 		E0577ED5FFAF4B22D658EF1ED08A8EFC /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC3980ADCD26544F681ADEA71E62312 /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746561A5C289DB6A82261B056529B6F /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -154,6 +153,7 @@
 		E810F40A85ABEB90A18D51DF31532131 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A93DFB1935C06669426FD9937BDDB5 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A5F08B24B486D32F7E4B58D9F235FC /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BA3E0C06ADCE802D296B02BDDEA0B0 /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EABB183A989FB42C93A23FB74D88F5CD /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E842AD3DD0866845CD9E1646B145C80A /* SPTSharedExampleGroups.m */; };
+		ECFB9188B09C78D8AE5A023C4EA7A145 /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B36D67CC386C25BBEBF35F78B6CEE8 /* Flurry-iOS-SDK-dummy.m */; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F701675A5B6613160E052E5DC653EE2 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC33E42791AA8A4EB799F611C48F3B /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = A4453621EF79BBC4F5509035BDF21724 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -290,6 +290,7 @@
 		2C30AA160A6AD71075EBBFA0F9D1899A /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		2F3159B0825F1D4B546207D4C23B137D /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Pod/Classes/Internal/SEGReachability.m; sourceTree = "<group>"; };
 		317713F7B7F4735DF157BFA0C49DC978 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		31905897FD8396664803F10F004D3401 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
 		31E86F7BE47C2775C2A4669690515121 /* Segment-Flurry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Segment-Flurry.modulemap"; sourceTree = "<group>"; };
 		344BEF6F899F24FC8A608509B8F1E9C9 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		36EDC2A4460ECAB91B79F7E2F2175F9E /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
@@ -299,7 +300,6 @@
 		3C6612052D128CB8C1BA1D91043B9459 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		3DAF4CB1CF1166866F5ACC14CD2209F4 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		3DF750EE967C3A011C077C21DB76EA70 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
-		3E65E02F1E85FD337420378C7BD9B312 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
 		3EAA03250822CCE82246CE33FC6B29D3 /* SEGAnalyticsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsRequest.m; path = Pod/Classes/Internal/SEGAnalyticsRequest.m; sourceTree = "<group>"; };
 		3F0A0F1E1C72D20CC6D300B4FA45DF5A /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		3F6C7DDFE70C49EAE7EC69057E0171B2 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
@@ -322,6 +322,7 @@
 		5BB24BDA6EBA8B9FC738EFE795C4F477 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAADEFF53189046A46BBBAF1F4775CF /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		5D412380940F3655865198142AA08F4F /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		5F92C5F19C91E6720A2005AA53E07813 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.5.2.a; path = Flurry/libFlurry_7.5.2.a; sourceTree = "<group>"; };
 		614B10AE3B164D67A7E5A24D5250A16E /* Pods-Segment-Flurry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Segment-Flurry_Example.modulemap"; sourceTree = "<group>"; };
 		6240C868620A5FC574FA0BF4B462F7C9 /* SEGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGBluetooth.h; path = Pod/Classes/Internal/SEGBluetooth.h; sourceTree = "<group>"; };
 		62649A0E81F5D5878E40AD977CE3F33F /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
@@ -383,11 +384,11 @@
 		A615DB271438ECDE33328705EFC5D49B /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		A636934EB45980842C002E54682A1D83 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		A9699E96BA5DD03F9ECDAB9F5716FCE9 /* Segment_Flurry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Flurry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A983A8EC9D101C04A51CD97CED558768 /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
 		A996E92BBA74BF2457C5AEE3AA9BBFDF /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Pod/Classes/Integrations/SEGIdentifyPayload.h; sourceTree = "<group>"; };
 		A9D6172F377BB22C44FFCD44189CBAF3 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		AA495E8C83C2CFE6F72C29648B2A393C /* Analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-umbrella.h"; sourceTree = "<group>"; };
 		AD74C8B41573F9B143284CA4ED65D6F3 /* Pods-Segment-Flurry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-Flurry_Example-dummy.m"; sourceTree = "<group>"; };
-		ADD547AA0C2259C60FB7F9F6D2E69184 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = Flurry/Empty.m; sourceTree = "<group>"; };
 		AE1E4554D96E03CD02819795CA94D35D /* Pods-Segment-Flurry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-Flurry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF2E48C4FD4169676C56C52D72E2DEBA /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		B04656B210900AB1F8D1ABAE545C7F10 /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Pod/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
@@ -416,7 +417,6 @@
 		CE595AFEF09161D42A889ECE87BEEFA6 /* SEGFlurryIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SEGFlurryIntegration.m; sourceTree = "<group>"; };
 		CEC3980ADCD26544F681ADEA71E62312 /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Pod/Classes/Internal/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
 		D118254D76093A922EF9A31C759954CC /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
-		D4926F02E0F21424B683E0B41976F493 /* libFlurry_7.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.3.0.a; path = Flurry/libFlurry_7.3.0.a; sourceTree = "<group>"; };
 		D57623D08C5154A0021A27CD388858D8 /* Pods-Segment-Flurry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-Flurry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D71237BDC3F8EFFD2583EC585621D041 /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Pod/Classes/Internal/SEGSegmentIntegration.m; sourceTree = "<group>"; };
 		D76FCE70EFD815ACB09D77CC3B60653E /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Pod/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
@@ -582,14 +582,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		44B467694F2786781B1252A0D532BC31 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D4926F02E0F21424B683E0B41976F493 /* libFlurry_7.3.0.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4FD640E9520A0B24DA1CE9A9734DB5B9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,6 +621,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Specta";
+			sourceTree = "<group>";
+		};
+		63BAC5394E846B9F4DBFB50F8AED3225 /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				31905897FD8396664803F10F004D3401 /* Flurry.h */,
+				A983A8EC9D101C04A51CD97CED558768 /* FlurryEmpty.m */,
+				75E882F29D928A74873B2F986ED5F9C9 /* Frameworks */,
+			);
+			name = FlurrySDK;
 			sourceTree = "<group>";
 		};
 		65270967ED3329AB97D25F72124FAB02 /* Support Files */ = {
@@ -673,6 +675,14 @@
 			path = "Target Support Files/Pods-Segment-Flurry_Tests";
 			sourceTree = "<group>";
 		};
+		75E882F29D928A74873B2F986ED5F9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F92C5F19C91E6720A2005AA53E07813 /* libFlurry_7.5.2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -701,16 +711,6 @@
 			);
 			name = "Pods-Segment-Flurry_Example";
 			path = "Target Support Files/Pods-Segment-Flurry_Example";
-			sourceTree = "<group>";
-		};
-		A601F79DAB9849878B31A48F4C9FB8A4 /* FlurrySDK */ = {
-			isa = PBXGroup;
-			children = (
-				ADD547AA0C2259C60FB7F9F6D2E69184 /* Empty.m */,
-				3E65E02F1E85FD337420378C7BD9B312 /* Flurry.h */,
-				44B467694F2786781B1252A0D532BC31 /* Frameworks */,
-			);
-			name = FlurrySDK;
 			sourceTree = "<group>";
 		};
 		A8CB436392A7D4EDFBDB9D631F5DDA03 /* Support Files */ = {
@@ -815,7 +815,7 @@
 		DE07B249FDC664EA7D9C6E64AE564010 /* Flurry-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				A601F79DAB9849878B31A48F4C9FB8A4 /* FlurrySDK */,
+				63BAC5394E846B9F4DBFB50F8AED3225 /* FlurrySDK */,
 				AECE5E7DBF874AE15B5E8C4177026453 /* Support Files */,
 			);
 			path = "Flurry-iOS-SDK";
@@ -1147,7 +1147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBCA77560BD6483B640E15BB815977D1 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
 			buildPhases = (
-				1AE20B1DAD0AC185D071759E040A28C6 /* Sources */,
+				7655F81B6363BCFC29671D01A4B6DBD8 /* Sources */,
 				E3C0368F35354E935E9A8613CAFF5324 /* Frameworks */,
 				0A48E9FCEDDB44159704475B0BB0BD46 /* Resources */,
 				CA45D4D759D551370B3BE125FA3F5713 /* Headers */,
@@ -1256,15 +1256,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AE20B1DAD0AC185D071759E040A28C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FA7F213E0759A6B7CB9A2BC8F613A08 /* Empty.m in Sources */,
-				31176CEFAD51BD1031C2BC3099687B21 /* Flurry-iOS-SDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A4890D5E93D9C361B21A0719FF88785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1290,6 +1281,15 @@
 				614B0E34ACD041C802A83C02D898227E /* SEGFlurryIntegration.m in Sources */,
 				6C32C0627C45FC9A41AC1E231657E7D1 /* SEGFlurryIntegrationFactory.m in Sources */,
 				05A7DDD46B7911236416E61224BFCFDE /* Segment-Flurry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7655F81B6363BCFC29671D01A4B6DBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFB9188B09C78D8AE5A023C4EA7A145 /* Flurry-iOS-SDK-dummy.m in Sources */,
+				DD8F351881992FDB74A7E11E1FC99125 /* FlurryEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
