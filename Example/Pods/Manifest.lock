@@ -1,15 +1,15 @@
 PODS:
-  - Analytics (3.1.0)
+  - Analytics (3.3.0)
   - Expecta (1.0.5)
-  - Flurry-iOS-SDK (7.5.2):
-    - Flurry-iOS-SDK/FlurrySDK (= 7.5.2)
-  - Flurry-iOS-SDK/FlurrySDK (7.5.2)
+  - Flurry-iOS-SDK (7.6.6):
+    - Flurry-iOS-SDK/FlurrySDK (= 7.6.6)
+  - Flurry-iOS-SDK/FlurrySDK (7.6.6)
   - OCHamcrest (5.4.0)
   - OCMockito (3.0.2):
     - OCHamcrest (~> 5.1)
   - Segment-Flurry (1.0.2):
     - Analytics (~> 3.0)
-    - Flurry-iOS-SDK (~> 7.5.2)
+    - Flurry-iOS-SDK (~> 7.6)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -23,12 +23,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Analytics: e530ca7e91be699a23afbc7d8f4a20752b2c45d8
+  Analytics: be3d952b8b0f21679e25af3b9dfbbab89597e897
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Flurry-iOS-SDK: 8c87c4eab6008184ad9f63afabd79ec0d109c82e
+  Flurry-iOS-SDK: 97bbeec09cca666c2f1772f6e161c4f8ccff611e
   OCHamcrest: 5c1d441c5a82fb18ac17c2aeb52ec1a99edb971b
   OCMockito: 2cb6c2267cbc76537be56281cd47cdb5a7c27541
-  Segment-Flurry: 595a6db3f59b358e9e40adedf18529ee7b102c74
+  Segment-Flurry: ca5dcffc60457964b22e05efed8d2b1f1ebfde9c
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 PODFILE CHECKSUM: 724b785d1616828b127cf80906984f5d52080b33
