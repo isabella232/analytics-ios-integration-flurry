@@ -1,6 +1,13 @@
 Change Log
 ==========
 
+Version 1.1.0 *(17th August, 2016)*
+-------------------------------------------
+*(Supports analytics-ios 3.0+ and Flury 7.6+)*
+
+  * Fix: use conditional imports.
+  * Update Flurry SDK requirement.
+
 Version 1.0.2 *(20th May, 2016)*
 -------------------------------------------
 *(Supports analytics-ios 3.0+)*
