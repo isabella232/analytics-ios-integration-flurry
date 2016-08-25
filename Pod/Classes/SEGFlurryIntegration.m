@@ -58,14 +58,19 @@
 
 - (void)track:(SEGTrackPayload *)payload
 {
-    [Flurry logEvent:payload.event withParameters:payload.properties];
+    NSMutableDictionary *properties = [self formatProperties:payload.properties];
+
+    [Flurry logEvent:payload.event withParameters:properties];
+    SEGLog(@"Flurry logEvent:%@ withParameters:%@", payload.event, properties);
 }
 
 - (void)screen:(SEGScreenPayload *)payload
 {
     if ([self screenTracksEvents]) {
         NSString *event = [[NSString alloc] initWithFormat:@"Viewed %@ Screen", payload.name];
-        [Flurry logEvent:event withParameters:payload.properties];
+        NSMutableDictionary *properties = [self formatProperties:payload.properties];
+        [Flurry logEvent:event withParameters:properties];
+        SEGLog(@"Flurry logEvent:%@ withParameters:%@", event, properties);
     }
 
     // Flurry just counts the number of page views
@@ -78,6 +83,20 @@
 - (BOOL)screenTracksEvents
 {
     return [(NSNumber *)[self.settings objectForKey:@"screenTracksEvents"] boolValue];
+}
+
+// Returns NSDictionary truncated to 10 entries
+
+-(NSMutableDictionary *)formatProperties:(NSDictionary *) properties
+{
+    NSMutableDictionary *formattedProperties;
+    for (NSString *property in properties) {
+        formattedProperties[property] = properties[property];
+        if ([formattedProperties count] == 10) {
+            break;
+        }
+    }
+    return formattedProperties;
 }
 
 @end
