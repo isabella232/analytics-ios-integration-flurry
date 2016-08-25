@@ -58,7 +58,7 @@
 
 - (void)track:(SEGTrackPayload *)payload
 {
-    NSMutableDictionary *properties = [self formatProperties:payload.properties];
+    NSMutableDictionary *properties = [self truncateProperties:payload.properties];
 
     [Flurry logEvent:payload.event withParameters:properties];
     SEGLog(@"Flurry logEvent:%@ withParameters:%@", payload.event, properties);
@@ -68,7 +68,7 @@
 {
     if ([self screenTracksEvents]) {
         NSString *event = [[NSString alloc] initWithFormat:@"Viewed %@ Screen", payload.name];
-        NSMutableDictionary *properties = [self formatProperties:payload.properties];
+        NSMutableDictionary *properties = [self truncateProperties:payload.properties];
         [Flurry logEvent:event withParameters:properties];
         SEGLog(@"Flurry logEvent:%@ withParameters:%@", event, properties);
     }
@@ -87,16 +87,16 @@
 
 // Returns NSDictionary truncated to 10 entries
 
--(NSMutableDictionary *)formatProperties:(NSDictionary *) properties
+-(NSMutableDictionary *)truncateProperties:(NSDictionary *) properties
 {
-    NSMutableDictionary *formattedProperties;
+    NSMutableDictionary *truncatedProperties;
     for (NSString *property in properties) {
-        formattedProperties[property] = properties[property];
-        if ([formattedProperties count] == 10) {
+        truncatedProperties[property] = properties[property];
+        if ([truncatedProperties count] == 10) {
             break;
         }
     }
-    return formattedProperties;
+    return truncatedProperties;
 }
 
 @end
