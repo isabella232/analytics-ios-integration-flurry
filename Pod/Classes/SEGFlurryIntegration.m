@@ -89,7 +89,7 @@
 
 -(NSMutableDictionary *)truncateProperties:(NSDictionary *) properties
 {
-    NSMutableDictionary *truncatedProperties;
+    NSMutableDictionary *truncatedProperties = [NSMutableDictionary dictionaryWithCapacity:10];
     for (NSString *property in properties) {
         truncatedProperties[property] = properties[property];
         if ([truncatedProperties count] == 10) {
