@@ -34,6 +34,12 @@ SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWith
 
 ```
 
+## Migrating from 1.1.0 to 2.0.0
+Version 2.0.0 upgrades the Flurry iOS SDK from 7.6 to 10.2.0. Support was removed for logPageView, setLatitude, and setSessionContinueSeconds (replaced by withSessionContinueSeconds). 
+
+Please see [Flurry release notes](https://developer.yahoo.com/flurry/docs/releasenotes/ios/#version-10-2-0-1-08-2020) for complete list of changes.
+
+
 ## License
 
 ```

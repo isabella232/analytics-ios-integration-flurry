@@ -1,6 +1,17 @@
 Change Log
 ==========
 
+Version 2.0.0 *(17th August, 2016)*
+-------------------------------------------
+*(Supports Flury 10.2.0+)*
+
+  * Breaking: Removed support for logPageView
+  * Breaking: Removed support for setLatitude, will no longer track absolute location
+  * Update: Replace setSessionContinueSeconds with withSessionContinueSeconds
+  * Update Flurry SDK requirement.
+
+  Note: Please see [Flurry release notes](https://developer.yahoo.com/flurry/docs/releasenotes/ios/#version-10-2-0-1-08-2020) for complete list of changes.
+
 Version 1.1.0 *(17th August, 2016)*
 -------------------------------------------
 *(Supports analytics-ios 3.0+ and Flury 7.6+)*

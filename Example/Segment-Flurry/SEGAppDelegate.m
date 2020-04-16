@@ -7,12 +7,30 @@
 //
 
 #import "SEGAppDelegate.h"
+#import <Segment-Flurry/SEGFlurryIntegrationFactory.h>
 
 @implementation SEGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [SEGAnalytics debug:YES];
+    SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:@""];
+
+    // Add any of your bundled integrations.
+    [config use:[SEGFlurryIntegrationFactory instance]];
+
+    [SEGAnalytics setupWithConfiguration:config];
+
+    [[SEGAnalytics sharedAnalytics] identify:@"segment-fake-tester"
+                                      traits:@{ @"email" : @"tool@fake-segment-tester.com" }];
+
+    [[SEGAnalytics sharedAnalytics] track:@"Completed Order"
+                               properties:@{ @"title" : @"Launch Screen",
+                                             @"revenue" : @14.51 }];
+    
+    [[SEGAnalytics sharedAnalytics] screen:@"Home"];
+    
     return YES;
 }
 
