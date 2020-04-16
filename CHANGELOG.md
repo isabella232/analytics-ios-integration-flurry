@@ -1,9 +1,9 @@
 Change Log
 ==========
 
-Version 2.0.0 *(17th August, 2016)*
+Version 2.0.1 *(14th April, 2020)*
 -------------------------------------------
-*(Supports Flury 10.2.0+)*
+*(Supports analytics-ios 3.0+ and Flurry 10.2.0+)*
 
   * Breaking: Removed support for logPageView
   * Breaking: Removed support for setLatitude, will no longer track absolute location
