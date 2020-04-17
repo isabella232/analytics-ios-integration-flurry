@@ -10,6 +10,7 @@ Version 2.0.1 *(14th April, 2020)*
   * Update: Replace setSessionContinueSeconds with withSessionContinueSeconds
   * Update Flurry SDK requirement.
   * Update Release.md
+  * Bump target deployment to ios 9
 
   Note: Please see [Flurry release notes](https://developer.yahoo.com/flurry/docs/releasenotes/ios/#version-10-2-0-1-08-2020) for complete list of changes.
 
