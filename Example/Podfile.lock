@@ -7,7 +7,7 @@ PODS:
   - OCHamcrest (7.1.2)
   - OCMockito (5.1.3):
     - OCHamcrest (~> 7.0)
-  - Segment-Flurry (1.1.0):
+  - Segment-Flurry (2.0.1):
     - Analytics (~> 3.0)
     - Flurry-iOS-SDK (~> 10.2.0)
   - Specta (1.0.7)
@@ -37,9 +37,9 @@ SPEC CHECKSUMS:
   Flurry-iOS-SDK: ca3540dd9607a05a8a13a7dd36dfffdd5e0fd0ef
   OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
   OCMockito: 677cbb4a18fd492b5a4fb10144dada4de5ddb877
-  Segment-Flurry: 8690bfd728046b9b49252e7ecbabdc4cebdf7979
+  Segment-Flurry: 3d82d82c13df2c68dee07825f8c04585411036bc
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 724b785d1616828b127cf80906984f5d52080b33
+PODFILE CHECKSUM: 60600a2fedac2ef4454af8030c9c46f1b4f31339
 
 COCOAPODS: 1.8.4

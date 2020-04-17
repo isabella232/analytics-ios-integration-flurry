@@ -1,5 +1,6 @@
 target 'Segment-Flurry_Example' do
   pod 'Segment-Flurry', :path => '../'
+  platform :ios, '9.0'
 
   target 'Segment-Flurry_Tests' do
     inherit! :search_paths
