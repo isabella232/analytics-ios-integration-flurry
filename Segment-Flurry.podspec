@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Flurry"
-  s.version          = "2.0.1"
+  s.version          = "2.0.2"
   s.summary          = "Flurry Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.0'
+  s.dependency 'Analytics'
   s.dependency 'Flurry-iOS-SDK', '~> 10.2.0'
 end
