@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 2.0.3 *(7th October, 2020)*
+-------------------------------------------
+* Update SEGAnalytics imports to support new namespacing introduced in v4.x
+
 Version 2.0.1 *(14th April, 2020)*
 -------------------------------------------
 *(Supports analytics-ios 3.0+ and Flurry 10.2.0+)*
