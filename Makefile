@@ -1,5 +1,5 @@
 SDK ?= "iphonesimulator"
-DESTINATION ?= "platform=iOS Simulator,name=iPhone X"
+DESTINATION ?= "platform=iOS Simulator,name=iPhone 8"
 PROJECT := Segment-Flurry
 XC_ARGS := -scheme $(PROJECT)-Example -workspace Example/$(PROJECT).xcworkspace -sdk $(SDK) -destination $(DESTINATION) ONLY_ACTIVE_ARCH=NO
 

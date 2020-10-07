@@ -1,5 +1,9 @@
 #import "SEGFlurryIntegration.h"
+#if defined(__has_include) && __has_include(<Analytics/SEGAnalytics.h>)
 #import <Analytics/SEGAnalyticsUtils.h>
+#else
+#import <Segment/SEGAnalyticsUtils.h>
+#endif
 #if defined(__has_include) && __has_include(<Flurry_iOS_SDK/Flurry.h>)
 #import <Flurry_iOS_SDK/Flurry.h>
 #else
